@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+
+# base-node-2022 settings
+lib
+node_modules
+

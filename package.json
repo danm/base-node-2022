@@ -1,0 +1,31 @@
+{
+  "name": "@danm/base-node-2022",
+  "version": "1.0.0",
+  "description": "A simple base project for Typescript Node projects in 2022. Includes Vitest, ESLint, TS",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danm/base-node-2022.git"
+  },
+  "author": "Daniel Morrison <daniel.morrison@mac.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danm/base-node-2022/issues"
+  },
+  "homepage": "https://github.com/danm/base-node-2022#readme",
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "@typescript-eslint/eslint-plugin": "^5.37.0",
+    "@typescript-eslint/parser": "^5.37.0",
+    "eslint": "^8.23.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "vitest": "^0.23.2"
+  }
+}
